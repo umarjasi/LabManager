@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TestSuite1,Chrome 133.0.6943.127,,,22-02-2025 20:34:29,22-02-2025 20:35:20,51.119s,PASSED
+,,,,,,,
+Test Cases/RecordManualandScript,Chrome 133.0.6943.127,,,22-02-2025 20:34:30,22-02-2025 20:34:57,27.060s,PASSED
+"openBrowser(""http://elogmanager.westindia.cloudapp.azure.com:8880/"")",Chrome 133.0.6943.127,,,22-02-2025 20:34:32,22-02-2025 20:34:46,13.482s,PASSED
+maximizeWindow(),Chrome 133.0.6943.127,,,22-02-2025 20:34:46,22-02-2025 20:34:46,0.308s,PASSED
+"setText(findTestObject(""Object Repository/Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.UserID""), ""UF001"")",Chrome 133.0.6943.127,,,22-02-2025 20:34:46,22-02-2025 20:34:47,1.122s,PASSED
+"setText(findTestObject(""Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.Password""), ""syn12345"")",Chrome 133.0.6943.127,,,22-02-2025 20:34:47,22-02-2025 20:34:48,0.962s,PASSED
+"selectOptionByValue(findTestObject(""Manual and Script mode/Page_Sign In/select_Choose.                                                    Admin                                                    Analyst                                                    Reviewer""), ""1"", false)",Chrome 133.0.6943.127,,,22-02-2025 20:34:48,22-02-2025 20:34:50,1.343s,PASSED
+"click(findTestObject(""Object Repository/Manual and Script mode/Page_Sign In/button_SIGN IN""))",Chrome 133.0.6943.127,,,22-02-2025 20:34:50,22-02-2025 20:34:55,5.016s,PASSED
+"click(findTestObject(""Manual and Script mode/Page_eLabManager  Home/img""))",Chrome 133.0.6943.127,,,22-02-2025 20:34:55,22-02-2025 20:34:56,1.164s,PASSED
+"click(findTestObject(""Manual and Script mode/Page_Electrode Inward/a_Hi Welcome Umar Farook""))",Chrome 133.0.6943.127,,,22-02-2025 20:34:56,22-02-2025 20:34:56,0.766s,PASSED
+"click(findTestObject(""Manual and Script mode/Page_Electrode Inward/a_Sign Out""))",Chrome 133.0.6943.127,,,22-02-2025 20:34:56,22-02-2025 20:34:57,1.003s,PASSED
+,,,,,,,
+Test Cases/RecordWeb,Chrome 133.0.6943.127,,,22-02-2025 20:34:57,22-02-2025 20:35:20,22.483s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,22-02-2025 20:34:58,22-02-2025 20:35:03,4.910s,PASSED
+maximizeWindow(),Chrome 133.0.6943.127,,,22-02-2025 20:35:03,22-02-2025 20:35:03,0.148s,PASSED
+"navigateToUrl(""http://elogmanager.westindia.cloudapp.azure.com:8880/"")",Chrome 133.0.6943.127,,,22-02-2025 20:35:03,22-02-2025 20:35:09,5.983s,PASSED
+"setText(findTestObject(""Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.UserID""), ""UF001"")",Chrome 133.0.6943.127,,,22-02-2025 20:35:09,22-02-2025 20:35:10,1.032s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.Password""), ""HpiwpJB8dPxMYvKg5xSEwQ=="")",Chrome 133.0.6943.127,,,22-02-2025 20:35:10,22-02-2025 20:35:11,0.966s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Recordweb/Page_Sign In/select_Choose.                             _04f351""), ""1"", true)",Chrome 133.0.6943.127,,,22-02-2025 20:35:11,22-02-2025 20:35:13,1.724s,PASSED
+"click(findTestObject(""Object Repository/Recordweb/Page_Sign In/button_SIGN IN""))",Chrome 133.0.6943.127,,,22-02-2025 20:35:13,22-02-2025 20:35:16,2.977s,PASSED
+"click(findTestObject(""Object Repository/Recordweb/Page_eLabManager  Home/img""))",Chrome 133.0.6943.127,,,22-02-2025 20:35:16,22-02-2025 20:35:17,1.465s,PASSED
+"click(findTestObject(""Object Repository/Recordweb/Page_Add New User/a_Hi Welcome Umar Farook""))",Chrome 133.0.6943.127,,,22-02-2025 20:35:17,22-02-2025 20:35:18,0.759s,PASSED
+"click(findTestObject(""Object Repository/Recordweb/Page_Add New User/a_Sign Out""))",Chrome 133.0.6943.127,,,22-02-2025 20:35:18,22-02-2025 20:35:19,0.844s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,22-02-2025 20:35:19,22-02-2025 20:35:20,1.067s,PASSED

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TestSuite1" time="37.608" tests="2" failures="0" errors="0">
+   <testsuite name="TestSuite1" tests="2" failures="0" errors="0" time="37.608" skipped="0" timestamp="22-02-2025T20:27:23" hostname="jesila - DESKTOP-OVP0SQ7" id="Test Suites/TestSuite1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\jesila\\git\\LabManager\\Reports\\20250222_202716\\TestSuite1\\20250222_202716"/>
+         <property name="logFiles" value="C:\\Users\\jesila\\git\\LabManager\\Reports\\20250222_202716\\TestSuite1\\20250222_202716\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jesila - DESKTOP-OVP0SQ7"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.1.0.223"/>
+         <property name="browser" value="Chrome 133.0.6943.127"/>
+         <property name="hostAddress" value="192.168.29.58"/>
+         <property name="sessionId" value="105accce7dbdb38f063bc7be317195ff"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/RecordManualandScript" time="17.783" classname="Test Cases/RecordManualandScript" status="PASSED">
+         <system-out><![CDATA[22-02-2025T20:27:24 - [TEST_CASE][PASSED] - Test Cases/RecordManualandScript: Test Cases/RecordManualandScript
+
+22-02-2025T20:27:24 - [TEST_STEP][PASSED] - openBrowser("http://elogmanager.westindia.cloudapp.azure.com:8880/"): Browser is opened with url: 'http://elogmanager.westindia.cloudapp.azure.com:8880/'
+
+22-02-2025T20:27:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-02-2025T20:27:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-02-2025T20:27:32 - [MESSAGE][PASSED] - Browser is opened with url: 'http://elogmanager.westindia.cloudapp.azure.com:8880/'
+
+22-02-2025T20:27:32 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-02-2025T20:27:32 - [MESSAGE][PASSED] - Current window maximized
+
+22-02-2025T20:27:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.UserID"), "UF001"): Text 'UF001' is set on object 'Object Repository/Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.UserID'
+
+22-02-2025T20:27:33 - [MESSAGE][PASSED] - Text 'UF001' is set on object 'Object Repository/Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.UserID'
+
+22-02-2025T20:27:33 - [TEST_STEP][PASSED] - setText(findTestObject("Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.Password"), "syn12345"): Text 'syn12345' is set on object 'Object Repository/Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.Password'
+
+22-02-2025T20:27:34 - [MESSAGE][PASSED] - Text 'syn12345' is set on object 'Object Repository/Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.Password'
+
+22-02-2025T20:27:34 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Manual and Script mode/Page_Sign In/select_Choose.                                                    Admin                                                    Analyst                                                    Reviewer"), "1", false): All options with value '1' are selected in object 'Object Repository/Manual and Script mode/Page_Sign In/select_Choose.                                                    Admin                                                    Analyst                                                    Reviewer' 
+
+22-02-2025T20:27:35 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Manual and Script mode/Page_Sign In/select_Choose.                                                    Admin                                                    Analyst                                                    Reviewer' 
+
+22-02-2025T20:27:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Manual and Script mode/Page_Sign In/button_SIGN IN")): Object: 'Object Repository/Manual and Script mode/Page_Sign In/button_SIGN IN' is clicked on
+
+22-02-2025T20:27:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual and Script mode/Page_Sign In/button_SIGN IN' is clicked on
+
+22-02-2025T20:27:37 - [TEST_STEP][PASSED] - click(findTestObject("Manual and Script mode/Page_eLabManager  Home/img")): Object: 'Object Repository/Manual and Script mode/Page_eLabManager  Home/img' is clicked on
+
+22-02-2025T20:27:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual and Script mode/Page_eLabManager  Home/img' is clicked on
+
+22-02-2025T20:27:39 - [TEST_STEP][PASSED] - click(findTestObject("Manual and Script mode/Page_Electrode Inward/a_Hi Welcome Umar Farook")): Object: 'Object Repository/Manual and Script mode/Page_Electrode Inward/a_Hi Welcome Umar Farook' is clicked on
+
+22-02-2025T20:27:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual and Script mode/Page_Electrode Inward/a_Hi Welcome Umar Farook' is clicked on
+
+22-02-2025T20:27:40 - [TEST_STEP][PASSED] - click(findTestObject("Manual and Script mode/Page_Electrode Inward/a_Sign Out")): Object: 'Object Repository/Manual and Script mode/Page_Electrode Inward/a_Sign Out' is clicked on
+
+22-02-2025T20:27:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Manual and Script mode/Page_Electrode Inward/a_Sign Out' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/RecordWeb" time="19.183" classname="Test Cases/RecordWeb" status="PASSED">
+         <system-out><![CDATA[22-02-2025T20:27:41 - [TEST_CASE][PASSED] - Test Cases/RecordWeb: Test Cases/RecordWeb
+
+22-02-2025T20:27:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+22-02-2025T20:27:42 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+22-02-2025T20:27:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+22-02-2025T20:27:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+22-02-2025T20:27:46 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+22-02-2025T20:27:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+22-02-2025T20:27:46 - [MESSAGE][PASSED] - Current window maximized
+
+22-02-2025T20:27:46 - [TEST_STEP][PASSED] - navigateToUrl("http://elogmanager.westindia.cloudapp.azure.com:8880/"): Navigate to 'http://elogmanager.westindia.cloudapp.azure.com:8880/' successfully
+
+22-02-2025T20:27:50 - [MESSAGE][PASSED] - Navigate to 'http://elogmanager.westindia.cloudapp.azure.com:8880/' successfully
+
+22-02-2025T20:27:50 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.UserID"), "UF001"): Text 'UF001' is set on object 'Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.UserID'
+
+22-02-2025T20:27:51 - [MESSAGE][PASSED] - Text 'UF001' is set on object 'Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.UserID'
+
+22-02-2025T20:27:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.Password"), "HpiwpJB8dPxMYvKg5xSEwQ=="): Text ****** has been set on object 'Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.Password'
+
+22-02-2025T20:27:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.Password'
+
+22-02-2025T20:27:52 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Recordweb/Page_Sign In/select_Choose.                             _04f351"), "1", true): All options with value '1' are selected in object 'Object Repository/Recordweb/Page_Sign In/select_Choose.                             _04f351'  using regular expression
+
+22-02-2025T20:27:54 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Recordweb/Page_Sign In/select_Choose.                             _04f351'  using regular expression
+
+22-02-2025T20:27:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recordweb/Page_Sign In/button_SIGN IN")): Object: 'Object Repository/Recordweb/Page_Sign In/button_SIGN IN' is clicked on
+
+22-02-2025T20:27:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Recordweb/Page_Sign In/button_SIGN IN' is clicked on
+
+22-02-2025T20:27:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recordweb/Page_eLabManager  Home/img")): Object: 'Object Repository/Recordweb/Page_eLabManager  Home/img' is clicked on
+
+22-02-2025T20:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Recordweb/Page_eLabManager  Home/img' is clicked on
+
+22-02-2025T20:27:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recordweb/Page_Add New User/a_Hi Welcome Umar Farook")): Object: 'Object Repository/Recordweb/Page_Add New User/a_Hi Welcome Umar Farook' is clicked on
+
+22-02-2025T20:27:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Recordweb/Page_Add New User/a_Hi Welcome Umar Farook' is clicked on
+
+22-02-2025T20:27:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Recordweb/Page_Add New User/a_Sign Out")): Object: 'Object Repository/Recordweb/Page_Add New User/a_Sign Out' is clicked on
+
+22-02-2025T20:28:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Recordweb/Page_Add New User/a_Sign Out' is clicked on
+
+22-02-2025T20:28:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+22-02-2025T20:28:01 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[22-02-2025T20:27:23 - [TEST_SUITE][PASSED] - TestSuite1: Test Cases/RecordWeb]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Choose.                                                    Admin                                                    Analyst                                                    Reviewer</name>
+   <tag></tag>
+   <elementGuidId>c06fe172-3f1f-49d0-bf73-7a6013c90d1d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#ddlRole</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='ddlRole']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#ddlRole</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>f8f8f2f8-5985-4667-9efa-248ef25bacaa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control</value>
+      <webElementGuid>167a625e-e8f5-4450-a9bd-bde7d5c87b90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>ddlRole</value>
+      <webElementGuid>4ddcaf70-d35d-48c1-98d0-95cd633ff863</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>UserData.CDRole</value>
+      <webElementGuid>d327f838-9f55-46cd-8c16-e28c5b5338f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                Choose...
+                                                    Admin
+                                                    Analyst
+                                                    Reviewer
+                                                    Approver
+                                                    Admin 4
+                                                    Admin6
+                                                    Manager
+                                                    User
+                                                    Test Demo
+                                                    Test Demo1
+                                            </value>
+      <webElementGuid>7a9d1df9-6488-4833-9c43-4f7023d0fc0d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ddlRole&quot;)</value>
+      <webElementGuid>6dfa2bb4-9ab9-4db8-aeea-e8f1738ab209</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='ddlRole']</value>
+      <webElementGuid>8a69cd7a-2d5f-40bf-af66-d23a04f60069</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='form1']/fieldset/div[3]/div/select</value>
+      <webElementGuid>a48266c1-fdcf-4b32-aedd-37290f2e31ed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SIGN IN'])[1]/preceding::select[1]</value>
+      <webElementGuid>aad9e570-c2ba-434d-b5da-f68f3f65b04e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>e854f174-8a25-4c10-9134-5f1f0421eba4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'ddlRole' and @name = 'UserData.CDRole' and (text() = '
+                                                Choose...
+                                                    Admin
+                                                    Analyst
+                                                    Reviewer
+                                                    Approver
+                                                    Admin 4
+                                                    Admin6
+                                                    Manager
+                                                    User
+                                                    Test Demo
+                                                    Test Demo1
+                                            ' or . = '
+                                                Choose...
+                                                    Admin
+                                                    Analyst
+                                                    Reviewer
+                                                    Approver
+                                                    Admin 4
+                                                    Admin6
+                                                    Manager
+                                                    User
+                                                    Test Demo
+                                                    Test Demo1
+                                            ')]</value>
+      <webElementGuid>b61b86ee-416c-4889-a2c8-0dff023832d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
