@@ -18,17 +18,11 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //WebUI.openBrowser('')
-
 //WebUI.maximizeWindow()
-
 //WebUI.navigateToUrl('http://elogmanager.westindia.cloudapp.azure.com:8880/')
-
 WebUI.setText(findTestObject('Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.UserID'), 'UF001')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Recordweb/Page_Sign In/input_SIGN IN_UserData.Password'), 'HpiwpJB8dPxMYvKg5xSEwQ==')
-
-WebUI.selectOptionByValue(findTestObject('Object Repository/Recordweb/Page_Sign In/select_Choose.                             _04f351'), 
-    '1', true)
 
 WebUI.click(findTestObject('Object Repository/Recordweb/Page_Sign In/button_SIGN IN'))
 
@@ -37,6 +31,4 @@ WebUI.click(findTestObject('Object Repository/Recordweb/Page_eLabManager  Home/i
 WebUI.click(findTestObject('Object Repository/Recordweb/Page_Add New User/a_Hi Welcome Umar Farook'))
 
 WebUI.click(findTestObject('Object Repository/Recordweb/Page_Add New User/a_Sign Out'))
-
-//WebUI.closeBrowser()
 

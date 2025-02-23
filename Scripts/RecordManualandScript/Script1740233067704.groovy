@@ -25,9 +25,6 @@ WebUI.setText(findTestObject('Object Repository/Manual and Script mode/Page_Sign
 
 WebUI.setText(findTestObject('Manual and Script mode/Page_Sign In/input_SIGN IN_UserData.Password'), GlobalVariable.password)
 
-WebUI.selectOptionByValue(findTestObject('Manual and Script mode/Page_Sign In/select_Choose.                                                    Admin                                                    Analyst                                                    Reviewer'), 
-    '1', false)
-
 WebUI.click(findTestObject('Object Repository/Manual and Script mode/Page_Sign In/button_SIGN IN'))
 
 WebUI.click(findTestObject('Manual and Script mode/Page_eLabManager  Home/img'))
