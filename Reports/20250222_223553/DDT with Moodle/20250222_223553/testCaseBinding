@@ -1,0 +1,4 @@
+{"testCaseName":"Test Cases/CheckpointswithDDT","testCaseId":"Test Cases/CheckpointswithDDT","iterationVariableName":"","bindedValues":{"password":"\u0027sandbox24\u0027","expectedResult":"\u0027AUS\u0027","username":"\u0027admin\u0027"}}
+{"testCaseName":"Test Cases/CheckpointswithDDT","testCaseId":"Test Cases/CheckpointswithDDT","iterationVariableName":"","bindedValues":{"password":"\u0027sandbox24\u0027","expectedResult":"\u0027MM\u0027","username":"\u0027manager\u0027"}}
+{"testCaseName":"Test Cases/CheckpointswithDDT","testCaseId":"Test Cases/CheckpointswithDDT","iterationVariableName":"","bindedValues":{"password":"\u0027sandbox24\u0027","expectedResult":"\u0027TT\u0027","username":"\u0027teacher\u0027"}}
+{"testCaseName":"Test Cases/CheckpointswithDDT","testCaseId":"Test Cases/CheckpointswithDDT","iterationVariableName":"","bindedValues":{"password":"\u0027sandbox24\u0027","expectedResult":"\u0027SS\u0027","username":"\u0027student\u0027"}}

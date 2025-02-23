@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkpoint>
+   <description></description>
+   <name>CheckpointforMoodle</name>
+   <tag></tag>
+   <csv-source-info>
+      <is-from-test-data>false</is-from-test-data>
+      <source-url>C:\Users\jesila\Desktop\data.csv</source-url>
+      <source-type>CSV</source-type>
+      <sheet-name-or-separator>COMMA</sheet-name-or-separator>
+      <is-using-relative-path>false</is-using-relative-path>
+      <is-using-first-row-as-header>true</is-using-first-row-as-header>
+   </csv-source-info>
+   <taken-date>2025-02-22T22:48:04.791+05:30</taken-date>
+   <column-names>
+      <column-name>username</column-name>
+      <column-name> password</column-name>
+      <column-name> expectedResult</column-name>
+   </column-names>
+   <checkpoint-data><![CDATA[[
+  [
+    {
+      "value": "admin",
+      "checked": false
+    },
+    {
+      "value": "sandbox24",
+      "checked": false
+    },
+    {
+      "value": "AU",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "manager",
+      "checked": false
+    },
+    {
+      "value": "sandbox24",
+      "checked": false
+    },
+    {
+      "value": "MM",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "teacher",
+      "checked": false
+    },
+    {
+      "value": "sandbox24",
+      "checked": false
+    },
+    {
+      "value": "TT",
+      "checked": false
+    }
+  ],
+  [
+    {
+      "value": "student",
+      "checked": false
+    },
+    {
+      "value": "sandbox24",
+      "checked": false
+    },
+    {
+      "value": "SS",
+      "checked": false
+    }
+  ]
+]]]></checkpoint-data>
+</checkpoint>

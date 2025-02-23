@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log out",
+      "brokenLocator": "//div[@id\u003d\u0027carousel-item-main\u0027]/a[10]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//a[contains(text(),\u0027Log out\u0027)]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20250222_223553/DDT with Moodle/20250222_223553/Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log out_link.png"
+    }
+  ]
+}

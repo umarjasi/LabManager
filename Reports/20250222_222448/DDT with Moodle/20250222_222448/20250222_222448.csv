@@ -1,0 +1,62 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DDT with Moodle,Chrome 133.0.6943.127,,,22-02-2025 22:24:55,22-02-2025 22:27:35,2m - 40.455s,PASSED
+,,,,,,,
+Test Cases/CheckpointswithDDT,Chrome 133.0.6943.127,,,22-02-2025 22:24:55,22-02-2025 22:25:26,30.679s,PASSED
+"DATA BINDING - {""password"":""sandbox24"",""expectedResult"":""AU"",""username"":""admin""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:24:55,22-02-2025 22:24:55,0.075s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,22-02-2025 22:24:56,22-02-2025 22:25:10,13.912s,PASSED
+"navigateToUrl(""https://sandbox.moodledemo.net/"")",Chrome 133.0.6943.127,,,22-02-2025 22:25:10,22-02-2025 22:25:14,4.012s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:14,22-02-2025 22:25:16,2.616s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Username_username""), username)",Chrome 133.0.6943.127,,,22-02-2025 22:25:16,22-02-2025 22:25:19,2.311s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Password_password""), password)",Chrome 133.0.6943.127,,,22-02-2025 22:25:19,22-02-2025 22:25:20,1.296s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/button_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:20,22-02-2025 22:25:22,1.984s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/span_AU""), expectedResult)",Chrome 133.0.6943.127,,,22-02-2025 22:25:22,22-02-2025 22:25:24,1.595s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_AU""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:24,22-02-2025 22:25:24,0.586s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log out""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:24,22-02-2025 22:25:25,1.066s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,22-02-2025 22:25:25,22-02-2025 22:25:26,0.590s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:25:26,22-02-2025 22:25:26,0.069s,PASSED
+,,,,,,,
+Test Cases/CheckpointswithDDT,Chrome 133.0.6943.127,,,22-02-2025 22:25:26,22-02-2025 22:25:49,22.817s,PASSED
+"DATA BINDING - {""password"":""sandbox24"",""expectedResult"":""MM"",""username"":""manager""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:25:26,22-02-2025 22:25:26,0.009s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,22-02-2025 22:25:26,22-02-2025 22:25:29,2.574s,PASSED
+"navigateToUrl(""https://sandbox.moodledemo.net/"")",Chrome 133.0.6943.127,,,22-02-2025 22:25:29,22-02-2025 22:25:36,7.430s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:36,22-02-2025 22:25:37,1.268s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Username_username""), username)",Chrome 133.0.6943.127,,,22-02-2025 22:25:37,22-02-2025 22:25:40,2.175s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Password_password""), password)",Chrome 133.0.6943.127,,,22-02-2025 22:25:40,22-02-2025 22:25:41,1.567s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/button_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:41,22-02-2025 22:25:43,2.045s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/span_AU""), expectedResult)",Chrome 133.0.6943.127,,,22-02-2025 22:25:43,22-02-2025 22:25:45,1.484s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_AU""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:45,22-02-2025 22:25:45,0.409s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log out""))",Chrome 133.0.6943.127,,,22-02-2025 22:25:45,22-02-2025 22:25:47,1.782s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,22-02-2025 22:25:47,22-02-2025 22:25:49,1.934s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:25:49,22-02-2025 22:25:49,0.014s,PASSED
+,,,,,,,
+Test Cases/CheckpointswithDDT,Chrome 133.0.6943.127,,,22-02-2025 22:25:49,22-02-2025 22:26:45,55.727s,PASSED
+"DATA BINDING - {""password"":""sandbox24"",""expectedResult"":""TT"",""username"":""teacher""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:25:49,22-02-2025 22:25:49,0.011s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,22-02-2025 22:25:49,22-02-2025 22:25:52,3.314s,PASSED
+"navigateToUrl(""https://sandbox.moodledemo.net/"")",Chrome 133.0.6943.127,,,22-02-2025 22:25:52,22-02-2025 22:26:00,8.072s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:26:00,22-02-2025 22:26:02,1.138s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Username_username""), username)",Chrome 133.0.6943.127,,,22-02-2025 22:26:02,22-02-2025 22:26:04,1.961s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Password_password""), password)",Chrome 133.0.6943.127,,,22-02-2025 22:26:04,22-02-2025 22:26:05,1.103s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/button_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:26:05,22-02-2025 22:26:06,1.646s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/span_AU""), expectedResult)",Chrome 133.0.6943.127,,,22-02-2025 22:26:06,22-02-2025 22:26:08,1.505s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_AU""))",Chrome 133.0.6943.127,,,22-02-2025 22:26:08,22-02-2025 22:26:08,0.583s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log out""))",Chrome 133.0.6943.127,,,22-02-2025 22:26:08,22-02-2025 22:26:44,35.270s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,22-02-2025 22:26:44,22-02-2025 22:26:45,0.998s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:26:45,22-02-2025 22:26:45,0.002s,PASSED
+,,,,,,,
+Test Cases/CheckpointswithDDT,Chrome 133.0.6943.127,,,22-02-2025 22:26:45,22-02-2025 22:27:35,50.529s,PASSED
+"DATA BINDING - {""password"":""sandbox24"",""expectedResult"":""SS"",""username"":""student""}",,,,,,,
+Start listener action : sampleBeforeTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:26:45,22-02-2025 22:26:45,0.007s,PASSED
+"openBrowser("""")",Chrome 133.0.6943.127,,,22-02-2025 22:26:45,22-02-2025 22:26:48,3.490s,PASSED
+"navigateToUrl(""https://sandbox.moodledemo.net/"")",Chrome 133.0.6943.127,,,22-02-2025 22:26:48,22-02-2025 22:26:53,4.541s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:26:53,22-02-2025 22:26:55,1.931s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Username_username""), username)",Chrome 133.0.6943.127,,,22-02-2025 22:26:55,22-02-2025 22:26:57,2.166s,PASSED
+"setText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/input_Password_password""), password)",Chrome 133.0.6943.127,,,22-02-2025 22:26:57,22-02-2025 22:26:58,0.792s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Log in to the site  Sandbox 4.5/button_Log in""))",Chrome 133.0.6943.127,,,22-02-2025 22:26:58,22-02-2025 22:27:00,2.300s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/span_AU""), expectedResult)",Chrome 133.0.6943.127,,,22-02-2025 22:27:00,22-02-2025 22:27:02,1.588s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_AU""))",Chrome 133.0.6943.127,,,22-02-2025 22:27:02,22-02-2025 22:27:02,0.564s,PASSED
+"click(findTestObject(""Object Repository/Checkpointswithdatadriven/Page_Home  Sandbox 4.5/a_Log out""))",Chrome 133.0.6943.127,,,22-02-2025 22:27:02,22-02-2025 22:27:35,32.735s,PASSED
+closeBrowser(),Chrome 133.0.6943.127,,,22-02-2025 22:27:35,22-02-2025 22:27:35,0.344s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 133.0.6943.127,,,22-02-2025 22:27:35,22-02-2025 22:27:35,0.002s,PASSED
